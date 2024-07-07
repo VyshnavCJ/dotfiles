@@ -18,8 +18,8 @@ being lazy is a character of an engineer, so I use dotfies because it makes life
 - [kde connect](https://kdeconnect.kde.org/)
 
 ## Browser Extenstion
-[credit 1](https://www.reddit.com/r/Piracy/comments/1dcoxkx/useful_extensions_for_everyone/)
-[credit 2](https://github.com/FastForwardTeam/FastForward?tab=readme-ov-file)
+[*credit 1*](https://www.reddit.com/r/Piracy/comments/1dcoxkx/useful_extensions_for_everyone/)
+[*credit 2*](https://github.com/FastForwardTeam/FastForward?tab=readme-ov-file)
 - ublock origin
 - tampermonkey
 - startpage: search engine
