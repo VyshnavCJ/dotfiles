@@ -14,3 +14,5 @@ fish_add_path $HOME/.local/share/bin
 # git keybindings
 source ~/.config/fish/git.fish
 
+# fish shell intergration
+starship init fish | source
