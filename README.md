@@ -1,6 +1,6 @@
 # My dotfiles
 
-being lazy is a character of engineer, so I use dotfies because it makes life easy :)
+being lazy is a character of an engineer, so I use dotfies because it makes life easy :)
 
 ## Stuffs I use
 - [kitty](https://sw.kovidgoyal.net/kitty/) (Terminal emulator)
