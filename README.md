@@ -9,10 +9,34 @@ being lazy is a character of an engineer, so I use dotfies because it makes life
 - [fish](https://github.com/starship/starship) (Shell)
 - [hyprland](https://github.com/prasanthrangan/hyprdots) (Wayland compositor) *ps: install sddm*
 - [thunderbird](https://www.thunderbird.net/en-US/) (Mail client)
-- [firefox] (Browser)
+- [firefox](https://www.mozilla.org/en-US/firefox/new/) (Browser)
 - [stremio](https://guides.viren070.me/stremio)
+- [bitwarden](https://bitwarden.com/) (Password manager)
 
 ## Usefull packages
 - [bt-dualboot](https://github.com/x2es/bt-dualboot)
 - [kde connect](https://kdeconnect.kde.org/)
 
+## Browser Extenstion
+[credit 1](https://www.reddit.com/r/Piracy/comments/1dcoxkx/useful_extensions_for_everyone/)
+[credit 2](https://github.com/FastForwardTeam/FastForward?tab=readme-ov-file)
+- ublock origin
+- tampermonkey
+- startpage: search engine
+- sponsorblock
+- languagetool
+- dark reader
+- bypass paywall clean
+- wayback machine
+- buster captcha solver for humans
+- return youtube dislike
+- video downloader professional
+- enhancer for youtube
+- magic actions for youtube
+- f.b purity
+- web archives
+- adguard extra
+- searxng: search engine
+- brave: search engine
+- hover zoom +
+- reddit enhancement suite
