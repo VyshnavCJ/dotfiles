@@ -10,6 +10,7 @@ set -U fish_greeting
 
 # path
 fish_add_path $HOME/.local/share/bin
+fish_add_path /usr/local/go/bin
 
 # git keybindings
 source ~/.config/fish/git.fish
