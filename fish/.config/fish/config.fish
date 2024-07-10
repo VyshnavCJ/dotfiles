@@ -9,10 +9,10 @@ bind \ef 'tmux-sessionizer'
 set -U fish_greeting
 
 # path
-fish_add_path $HOME/.local/share/bin
-fish_add_path /usr/local/go/bin
-# fish_add_path $HOME/.dotnet
-# fish_add_path $HOME/.dotnet/tools
+fish_add_path -U $HOME/.local/share/bin
+fish_add_path -U /usr/local/go/bin
+# fish_add_path -U $HOME/.dotnet
+# fish_add_path - U $HOME/.dotnet/tools
 
 # git keybindings
 source ~/.config/fish/git.fish
