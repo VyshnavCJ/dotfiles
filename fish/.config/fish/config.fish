@@ -1,5 +1,6 @@
 # alias
 alias nv=nvim
+alias tmux="tmux -u"
 abbr --add ext cd /run/media/cj/workstation
 abbr --add dev cd /run/media/cj/workstation/dev
 abbr --add work cd /run/media/cj/workstation/work

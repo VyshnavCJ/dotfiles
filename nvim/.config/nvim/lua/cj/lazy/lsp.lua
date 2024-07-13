@@ -36,6 +36,7 @@ return {
                 "cssls",
                 "html",
                 "eslint",
+                "omnisharp",
             },
             handlers = {
                 function(server_name) -- default handler (optional)
