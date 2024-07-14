@@ -8,16 +8,15 @@ return {
             "marilari88/neotest-vitest",
             "nvim-neotest/neotest-plenary",
             "nvim-neotest/nvim-nio",
+            "Issafalcon/neotest-dotnet",
         },
         config = function()
             local neotest = require("neotest")
             neotest.setup({
                 adapters = {
                     require("neotest-vitest"),
+                    require("neotest-dotnet"),
                     require("neotest-plenary").setup({
-                        -- this is my standard location for minimal vim rc
-                        -- in all my projects
-                        min_init = "./scripts/tests/minimal.vim",
                     }),
                 }
             })
