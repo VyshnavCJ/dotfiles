@@ -12,6 +12,7 @@ return {
         "saadparwaiz1/cmp_luasnip",
         "j-hui/fidget.nvim",
         "hrsh7th/cmp-nvim-lsp-signature-help",
+        "Hoffs/omnisharp-extended-lsp.nvim",
     },
 
     config = function()
@@ -77,6 +78,15 @@ return {
                 client.server_capabilities.documentFormattingProvider = false
                 client.server_capabilities.documentFormattingRangeProvider = false
             end,
+        })
+
+        require('lspconfig').omnisharp.setup({
+            handlers = {
+                ["textDocument/definition"] = require('omnisharp_extended').definition_handler,
+                ["textDocument/typeDefinition"] = require('omnisharp_extended').type_definition_handler,
+                ["textDocument/references"] = require('omnisharp_extended').references_handler,
+                ["textDocument/implementation"] = require('omnisharp_extended').implementation_handler,
+            },
         })
 
         local cmp_select = { behavior = cmp.SelectBehavior.Select }
