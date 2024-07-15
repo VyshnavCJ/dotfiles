@@ -16,8 +16,7 @@ return {
                 adapters = {
                     require("neotest-vitest"),
                     require("neotest-dotnet"),
-                    require("neotest-plenary").setup({
-                    }),
+                    require("neotest-plenary"),
                 }
             })
 
