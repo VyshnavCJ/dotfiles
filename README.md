@@ -1,6 +1,6 @@
 # My dotfiles
 
-Being lazy is a characteristic of an engineer, so I use dotfiles because they make life easier.
+Being lazy is practically an engineer's superpower, which is why I use dotfiles to save the day.
 
 ## Stuffs I use daily
 - [kitty](https://sw.kovidgoyal.net/kitty/) (Terminal emulator)
