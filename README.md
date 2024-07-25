@@ -10,7 +10,7 @@ Being lazy is practically an engineer's superpower, which is why I use dotfiles 
 - [hyprland](https://github.com/prasanthrangan/hyprdots) (Wayland compositor)
 - [thunderbird](https://www.thunderbird.net/en-US/) (Mail client)
 - [firefox](https://www.mozilla.org/en-US/firefox/new/) (Browser)
-- [stremio](https://guides.viren070.me/stremio)
+- [stremio](https://guides.viren070.me/stremio) (Media Player)
 - [bitwarden](https://bitwarden.com/) (Password manager)
 
 ## Usefull packages
