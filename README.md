@@ -7,7 +7,7 @@ Being lazy is practically an engineer's superpower, which is why I use dotfiles 
 - [nvim](https://neovim.io/) (Editor)
 - [tmux](https://github.com/tmux/tmux/wiki) (Terminal multiplexer)
 - [fish](https://github.com/starship/starship) (Shell)
-- [hyprland](https://github.com/prasanthrangan/hyprdots) (Wayland compositor) *ps: install sddm*
+- [hyprland](https://github.com/prasanthrangan/hyprdots) (Wayland compositor)
 - [thunderbird](https://www.thunderbird.net/en-US/) (Mail client)
 - [firefox](https://www.mozilla.org/en-US/firefox/new/) (Browser)
 - [stremio](https://guides.viren070.me/stremio)
