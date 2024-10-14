@@ -40,3 +40,7 @@ Being lazy is practically an engineer's superpower, which is why I use dotfiles 
 - brave: search engine
 - hover zoom +
 - reddit enhancement suite
+
+## Keyboard Layout
+![image](https://github.com/user-attachments/assets/53b3b858-3405-4a23-b51d-370a774fa9f6)<br>
+[*Credit*](https://mark.stosberg.com/markstos-corne-3x5-1-keyboard-layout/)
