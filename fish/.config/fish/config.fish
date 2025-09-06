@@ -13,7 +13,7 @@ set -U fish_greeting
 fish_add_path -U $HOME/.local/share/bin
 fish_add_path -U /usr/local/go/bin
 fish_add_path -U $HOME/.dotnet
-fish_add_path - U $HOME/.dotnet/tools
+fish_add_path -U $HOME/.dotnet/tools
 
 # git keybindings
 source ~/.config/fish/git.fish
