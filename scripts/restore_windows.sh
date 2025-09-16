@@ -43,21 +43,21 @@ wmctrl -lx | grep "Navigator.firefox" | awk '{print $1}' | while read wid; do
   wmctrl -ir $wid -b add,maximized_vert,maximized_horz
 done
 
-wmctrl -lx | grep "mastodon-nativefier-389aa3.mastodon-nativefier-389aa3" | awk '{print $1}' | while read wid; do
-  wmctrl -ir $wid -t 2
-  xdotool windowmove $wid $MONITOR_LEFT_X $MONITOR_LEFT_Y
-  wmctrl -ir $wid -b add,maximized_vert,maximized_horz
-done
-
-wmctrl -lx | grep "Mail.thunderbird-esr" | awk '{print $1}' | while read wid; do
-  wmctrl -ir $wid -t 2
-  xdotool windowmove $wid $MONITOR_RIGHT_X $MONITOR_RIGHT_Y
-  wmctrl -ir $wid -b add,maximized_vert,maximized_horz
-done
-
-wmctrl -lx | grep "obsidian.obsidian" | awk '{print $1}' | while read wid; do
-  wmctrl -ir $wid -t 3
-  xdotool windowmove $wid $MONITOR_LEFT_X $MONITOR_LEFT_Y
-  wmctrl -ir $wid -b add,maximized_vert,maximized_horz
-done
-
+# wmctrl -lx | grep "mastodon-nativefier-389aa3.mastodon-nativefier-389aa3" | awk '{print $1}' | while read wid; do
+#   wmctrl -ir $wid -t 4
+#   xdotool windowmove $wid $MONITOR_LEFT_X $MONITOR_LEFT_Y
+#   wmctrl -ir $wid -b add,maximized_vert,maximized_horz
+# done
+#
+# wmctrl -lx | grep "Mail.thunderbird-esr" | awk '{print $1}' | while read wid; do
+#   wmctrl -ir $wid -t 4
+#   xdotool windowmove $wid $MONITOR_LEFT_X $MONITOR_LEFT_Y
+#   wmctrl -ir $wid -b add,maximized_vert,maximized_horz
+# done
+#
+# wmctrl -lx | grep "obsidian.obsidian" | awk '{print $1}' | while read wid; do
+#   wmctrl -ir $wid -t 4
+#   xdotool windowmove $wid $MONITOR_LEFT_X $MONITOR_LEFT_Y
+#   wmctrl -ir $wid -b add,maximized_vert,maximized_horz
+# done
+#
