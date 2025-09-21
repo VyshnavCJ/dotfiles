@@ -17,11 +17,13 @@ fish_add_path -U $HOME/.dotnet
 fish_add_path -U $HOME/go/bin
 fish_add_path -U $HOME/.dotnet/tools
 
+
 # git keybindings
 source ~/.config/fish/git.fish
 
 # fish shell intergration
 starship init fish | source
+
 
 # defaults
 # set -gx BROWSER /usr/bin/wslview
