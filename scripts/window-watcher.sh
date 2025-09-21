@@ -51,15 +51,6 @@ while true; do
       *"Navigator.firefox"*)
         move_and_maximize "$wid" "$MONITOR_LEFT_X" "$MONITOR_LEFT_Y" 1
         ;;
-      *"mastodon-nativefier-389aa3.mastodon-nativefier-389aa3"*)
-        move_and_maximize "$wid" "$MONITOR_LEFT_X" "$MONITOR_LEFT_Y" 4
-        ;;
-      *"Mail.thunderbird-esr"*)
-        move_and_maximize "$wid" "$MONITOR_LEFT_X" "$MONITOR_LEFT_Y" 4
-        ;;
-      *"obsidian.obsidian"*)
-        move_and_maximize "$wid" "$MONITOR_LEFT_X" "$MONITOR_LEFT_Y" 4
-        ;;
       *"jetbrains-rider.jetbrains-rider"*)
         move_and_maximize "$wid" "$MONITOR_LEFT_X" "$MONITOR_LEFT_Y" 2
         ;;
@@ -68,6 +59,15 @@ while true; do
         ;;
       *"DBeaver.DBeaver"*)
         move_and_maximize "$wid" "$MONITOR_LEFT_X" "$MONITOR_LEFT_Y" 3
+        ;;
+      *"mastodon-nativefier-389aa3.mastodon-nativefier-389aa3"*)
+        move_and_maximize "$wid" "$MONITOR_LEFT_X" "$MONITOR_LEFT_Y" 4
+        ;;
+      *"Mail.thunderbird-esr"*)
+        move_and_maximize "$wid" "$MONITOR_LEFT_X" "$MONITOR_LEFT_Y" 4
+        ;;
+      *"obsidian.obsidian"*)
+        move_and_maximize "$wid" "$MONITOR_LEFT_X" "$MONITOR_LEFT_Y" 4
         ;;
     esac
   done
